@@ -49,7 +49,7 @@ class Site(object):
 			from django.conf import settings
 			settings.configure(
 				TEMPLATE_DIRS=[self.paths['templates'], self.paths['pages']],
-				INSTALLED_APPS=['django.contrib.markup']
+				INSTALLED_APPS=['django.contrib.markup', 'typogrify']
 			)
 		except:
 			pass
