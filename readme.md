@@ -1,4 +1,4 @@
-## Install this form with pip
+## Install this fork with pip
 
     pip install git+ssh://git@github.com/hypertexthero/Cactus.git
 
